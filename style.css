@@ -55,7 +55,7 @@ body{
 
 .by-side{
     position: absolute;
-    bottom: 2rem;
+    bottom: 3rem;
     left: 0;
     font-size: 30px;
     letter-spacing: 1px;
@@ -89,7 +89,7 @@ body{
 
     .by-side{
         font-size: 20px;
-        bottom: 0;
+        bottom: 1rem;
     }
     
     
