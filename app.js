@@ -4,7 +4,7 @@ const minutes = document.querySelector(".minutes")
 const seconds = document.querySelector(".seconds")
 const countdownCon = document.querySelector(".countdown-container")
 
-const time = "28 Feb 2025";
+const time = "1 Jan 2026";
 
 function countdown() {
     const reachingDay = new Date(time);
@@ -25,7 +25,7 @@ function countdown() {
 
 
     if(day == 0 && hour == 0 && minute == 0 && second == 0 ){
-        countdownCon.innerHTML = "<h1> COMPLETED </h1>"
+        countdownCon.innerHTML = "<h1> HAPPY NEW YEAR!!! </h1>"
     }
 
 }
